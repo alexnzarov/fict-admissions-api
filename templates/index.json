@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Бакалавр - 121",
+    "document": "bachelor_121.docx",
+    "template": [
+      {
+        "name": "Фамилия",
+        "token": "last_name"
+      },
+      {
+        "name": "Имя",
+        "token": "first_name"
+      },
+      {
+        "name": "Отчество",
+        "token": "father_name"
+      }
+    ]
+  },
+  {
+    "name": "Бакалавр - 126",
+    "document": "bachelor_126.docx",
+    "template": [
+      {
+        "name": "Фамилия",
+        "token": "last_name"
+      },
+      {
+        "name": "Имя",
+        "token": "first_name"
+      },
+      {
+        "name": "Отчество",
+        "token": "father_name"
+      }
+    ]
+  },
+  {
+    "name": "Магистр - 121",
+    "document": "master_121.docx",
+    "template": [
+      {
+        "name": "Фамилия",
+        "token": "last_name"
+      },
+      {
+        "name": "Имя",
+        "token": "first_name"
+      },
+      {
+        "name": "Отчество",
+        "token": "father_name"
+      }
+    ]
+  },
+  {
+    "name": "Магистр - 126",
+    "document": "master_126.docx",
+    "template": [
+      {
+        "name": "Фамилия",
+        "token": "last_name"
+      },
+      {
+        "name": "Имя",
+        "token": "first_name"
+      },
+      {
+        "name": "Отчество",
+        "token": "father_name"
+      }
+    ]
+  }
+]
