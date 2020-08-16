@@ -2,6 +2,7 @@ const template = require('../../core/template');
 const { v4: uuid } = require('uuid');
 const { ServiceException } = require('../../core/exception');
 const { getFileName } = require('../../util/fs');
+const contentDisposition = require('content-disposition');
 
 const temp = {};
 
@@ -16,7 +17,7 @@ const get = async (req, res) => {
 
   delete temp[id];
 
-  res.setHeader('Content-Disposition', `attachment; filename=${doc.filename}`);
+  res.setHeader('Content-Disposition', contentDisposition(doc.filename));
   res.setHeader('Content-Type', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
 
   res.status(200).send(doc.buffer);
