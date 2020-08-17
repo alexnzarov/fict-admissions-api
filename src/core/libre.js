@@ -4,7 +4,7 @@ const libre = require('libreoffice-convert');
 const worker = (task, cb) => {
   const { resolve, reject, buffer } = task;
 
-  libre.convert(buffer, '.pdf', null, (err, data) => {
+  libre.convert(buffer, '.pdf', undefined, (err, data) => {
     try {
       if (err) { reject(err); }
       else { resolve(data); }
