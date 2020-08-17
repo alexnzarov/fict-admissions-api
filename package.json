@@ -14,7 +14,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-basic-auth": "^1.2.0",
-    "libreoffice-convert": "^1.1.1",
+    "libreoffice-convert": "git+https://github.com/alexnzarov/libreoffice-convert.git",
     "pizzip": "^3.0.6",
     "sanitize-filename": "^1.6.3",
     "telegraf": "^3.38.0",

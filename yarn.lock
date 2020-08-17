@@ -294,10 +294,9 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
-libreoffice-convert@^1.1.1:
+"libreoffice-convert@git+https://github.com/alexnzarov/libreoffice-convert.git":
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/libreoffice-convert/-/libreoffice-convert-1.1.1.tgz#aafdce80985c4e90ccce871702dc3d2b93eb1605"
-  integrity sha512-mTQLiVd0+JawmI0QEgWBYl3ah/KUh6y7u1OTtUTJwVOebvAoMUyYFb6wVCd4VfGgmoxLh3slcCIrd+dsZY64pw==
+  resolved "git+https://github.com/alexnzarov/libreoffice-convert.git#4d679a2efcec704be2adb0ae3758c6e8e4b6a1d2"
   dependencies:
     async "^2.6.2"
     tmp "^0.2.1"
