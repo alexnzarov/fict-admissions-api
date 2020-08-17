@@ -1,4 +1,5 @@
 const fs = require('fs');
+const sanitizeFilename = require('sanitize-filename');
 const { v4: uuid } = require('uuid');
 
 const readFile = (path, encoding) => new Promise((resolve, reject) => fs.readFile(path, { encoding }, (err, data) => err ? reject(err) : resolve(data)));
@@ -12,7 +13,7 @@ const getFileName = (data) => {
     }
   }
 
-  return (parts.length > 0 ? parts.join('-') : uuid()) + '.docx';
+  return sanitizeFilename(parts.length > 0 ? parts.join('-') : uuid());
 };
 
 module.exports = {

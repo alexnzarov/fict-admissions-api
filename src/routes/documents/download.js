@@ -44,7 +44,7 @@ const post = async (req, res) => {
   }
 
   const buffer = await template.getDocument(templateName, data);
-  const filename = getFileName(data);
+  const filename = getFileName(data) + '.docx';
   const id = uuid();
 
   temp[id] = { buffer, filename };

@@ -2,6 +2,7 @@ const template = require('../../core/template');
 const telegram = require('../../core/telegram');
 const { ServiceException } = require('../../core/exception');
 const { getFileName } = require('../../util/fs');
+const libre = require('../../core/libre');
 
 const post = async (req, res) => {
   const { user } = req.auth;
@@ -25,8 +26,9 @@ const post = async (req, res) => {
   }
 
   const buffer = await template.getDocument(templateName, data);
+  const pdf = await libre.convert(buffer);
 
-  telegram.sendDocument(getFileName(data), buffer, { user, template: t.name });
+  telegram.sendDocument(getFileName(data) + '.pdf', pdf, { user, template: t.name });
 
   res.status(200).send();
 };
