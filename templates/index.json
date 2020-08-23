@@ -4,15 +4,15 @@
     "document": "bachelor_121.docx",
     "template": [
       {
-        "name": "Фамилия",
+        "name": "Фамілія",
         "token": "last_name"
       },
       {
-        "name": "Имя",
+        "name": "Ім'я",
         "token": "first_name"
       },
       {
-        "name": "Отчество",
+        "name": "По батькові",
         "token": "father_name"
       },
       {
@@ -27,15 +27,15 @@
     "document": "bachelor_126.docx",
     "template": [
       {
-        "name": "Фамилия",
+        "name": "Фамілія",
         "token": "last_name"
       },
       {
-        "name": "Имя",
+        "name": "Ім'я",
         "token": "first_name"
       },
       {
-        "name": "Отчество",
+        "name": "По батькові",
         "token": "father_name"
       },
       {
@@ -50,15 +50,15 @@
     "document": "master_121.docx",
     "template": [
       {
-        "name": "Фамилия",
+        "name": "Фамілія",
         "token": "last_name"
       },
       {
-        "name": "Имя",
+        "name": "Ім'я",
         "token": "first_name"
       },
       {
-        "name": "Отчество",
+        "name": "По батькові",
         "token": "father_name"
       },
       {
@@ -73,15 +73,15 @@
     "document": "master_126.docx",
     "template": [
       {
-        "name": "Фамилия",
+        "name": "Фамілія",
         "token": "last_name"
       },
       {
-        "name": "Имя",
+        "name": "Ім'я",
         "token": "first_name"
       },
       {
-        "name": "Отчество",
+        "name": "По батькові",
         "token": "father_name"
       },
       {
