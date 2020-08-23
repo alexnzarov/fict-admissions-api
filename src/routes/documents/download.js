@@ -10,7 +10,7 @@ const get = async (req, res) => {
   const { id } = req.query;
 
   if (!(id in temp)) {
-    throw ServiceException.build(400, 'Неправильный идентификатор загрузки');
+    throw ServiceException.build(400, 'Неправильний ідентифікатор завантаження');
   }
 
   const doc = temp[id];
@@ -30,16 +30,16 @@ const post = async (req, res) => {
   const t = index.find(t => t.document === templateName);
 
   if (!t) {
-    throw ServiceException.build(400, 'Неправильное название шаблона');
+    throw ServiceException.build(400, 'Неправильна назва шаблону');
   }
 
   if (typeof(data) != 'object') {
-    throw ServiceException.build(400, 'Данные должны быть в формате обьекта');
+    throw ServiceException.build(400, 'Дані повинні бути у формі об\'єкта');
   }
 
   for (let field of t.template) {
     if (typeof(data[field.token]) != 'string') {
-      throw ServiceException.build(400, `Не хватает параметра "${field.name}" для шаблона`);
+      throw ServiceException.build(400, `Не вистачає параметра "${field.name}" для шаблону`);
     }
   }
 
