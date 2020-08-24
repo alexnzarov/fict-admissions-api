@@ -4,7 +4,7 @@
     "document": "bachelor_121.docx",
     "template": [
       {
-        "name": "Фамілія",
+        "name": "Прізвище",
         "token": "last_name"
       },
       {
@@ -27,7 +27,7 @@
     "document": "bachelor_126.docx",
     "template": [
       {
-        "name": "Фамілія",
+        "name": "Прізвище",
         "token": "last_name"
       },
       {
@@ -50,7 +50,7 @@
     "document": "master_121.docx",
     "template": [
       {
-        "name": "Фамілія",
+        "name": "Прізвище",
         "token": "last_name"
       },
       {
@@ -73,7 +73,7 @@
     "document": "master_126.docx",
     "template": [
       {
-        "name": "Фамілія",
+        "name": "Прізвище",
         "token": "last_name"
       },
       {
