@@ -16,6 +16,37 @@
         "token": "father_name"
       },
       {
+        "name": "Електронна пошта",
+        "token": "email",
+        "default": " "
+      },
+      {
+        "name": "Номер телефону",
+        "token": "phone_number",
+        "default": " "
+      },
+      {
+        "name": "Серія паспорта (ID-карта не має)",
+        "token": "series_passport",
+        "default": " "
+      },
+      {
+        "name": "Номер паспорта",
+        "token": "number_passport"
+      },
+      {
+        "name": "Ким паспорт виданий",
+        "token": "who_passport"
+      },
+      {
+        "name": "Коли паспорт виданий",
+        "token": "when_passport"
+      },
+      {
+        "name": "Реєстраційний номер облікової картки платника податків",
+        "token": "inn"
+      },
+      {
         "name": "Дата",
         "token": "date",
         "default": "$now"
@@ -39,6 +70,37 @@
         "token": "father_name"
       },
       {
+        "name": "Електронна пошта",
+        "token": "email",
+        "default": " "
+      },
+      {
+        "name": "Номер телефону",
+        "token": "phone_number",
+        "default": " "
+      },
+      {
+        "name": "Серія паспорта (ID-карта не має)",
+        "token": "series_passport",
+        "default": " "
+      },
+      {
+        "name": "Номер паспорта",
+        "token": "number_passport"
+      },
+      {
+        "name": "Ким паспорт виданий",
+        "token": "who_passport"
+      },
+      {
+        "name": "Коли паспорт виданий",
+        "token": "when_passport"
+      },
+      {
+        "name": "Реєстраційний номер облікової картки платника податків",
+        "token": "inn"
+      },
+      {
         "name": "Дата",
         "token": "date",
         "default": "$now"
@@ -46,8 +108,8 @@
     ]
   },
   {
-    "name": "Магістр - 121",
-    "document": "master_121.docx",
+    "name": "Бакалавр - 123",
+    "document": "bachelor_123.docx",
     "template": [
       {
         "name": "Прізвище",
@@ -62,27 +124,35 @@
         "token": "father_name"
       },
       {
-        "name": "Дата",
-        "token": "date",
-        "default": "$now"
-      }
-    ]
-  },
-  {
-    "name": "Магістр - 126",
-    "document": "master_126.docx",
-    "template": [
-      {
-        "name": "Прізвище",
-        "token": "last_name"
+        "name": "Електронна пошта",
+        "token": "email",
+        "default": " "
       },
       {
-        "name": "Ім'я",
-        "token": "first_name"
+        "name": "Номер телефону",
+        "token": "phone_number",
+        "default": " "
       },
       {
-        "name": "По батькові",
-        "token": "father_name"
+        "name": "Серія паспорта (ID-карта не має)",
+        "token": "series_passport",
+        "default": " "
+      },
+      {
+        "name": "Номер паспорта",
+        "token": "number_passport"
+      },
+      {
+        "name": "Ким паспорт виданий",
+        "token": "who_passport"
+      },
+      {
+        "name": "Коли паспорт виданий",
+        "token": "when_passport"
+      },
+      {
+        "name": "Реєстраційний номер облікової картки платника податків",
+        "token": "inn"
       },
       {
         "name": "Дата",
