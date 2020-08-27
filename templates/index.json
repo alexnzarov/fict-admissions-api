@@ -17,13 +17,11 @@
       },
       {
         "name": "Електронна пошта",
-        "token": "email",
-        "default": " "
+        "token": "email"
       },
       {
         "name": "Номер телефону",
-        "token": "phone_number",
-        "default": " "
+        "token": "phone_number"
       },
       {
         "name": "Серія паспорта (ID-карта не має)",
@@ -71,13 +69,11 @@
       },
       {
         "name": "Електронна пошта",
-        "token": "email",
-        "default": " "
+        "token": "email"
       },
       {
         "name": "Номер телефону",
-        "token": "phone_number",
-        "default": " "
+        "token": "phone_number"
       },
       {
         "name": "Серія паспорта (ID-карта не має)",
@@ -125,13 +121,11 @@
       },
       {
         "name": "Електронна пошта",
-        "token": "email",
-        "default": " "
+        "token": "email"
       },
       {
         "name": "Номер телефону",
-        "token": "phone_number",
-        "default": " "
+        "token": "phone_number"
       },
       {
         "name": "Серія паспорта (ID-карта не має)",
