@@ -39,7 +39,8 @@ const post = async (req, res) => {
 
   for (let field of t.template) {
     if (typeof(data[field.token]) != 'string') {
-      throw ServiceException.build(400, `Не вистачає параметра "${field.name}" для шаблону`);
+      data[field.token] = '';
+      //throw ServiceException.build(400, `Не вистачає параметра "${field.name}" для шаблону`);
     }
   }
 
